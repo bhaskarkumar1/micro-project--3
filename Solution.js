@@ -9,6 +9,7 @@ food.forEach((element, index, food)=>{
 
 
 
+
 // console.log("Question 2 category vegetables: ------")
 // const vegeFood=food.filter((element, index, food)=>{
 //     if (element.category==="Vegetable") 
@@ -35,3 +36,58 @@ food.forEach((element, index, food)=>{
 //         return element
 // });
 // console.log(protein)
+
+
+
+
+// console.log("Question 6 category grains: ------")
+// const grains=food.filter((element, index, food)=>{
+//     if(element.category==="Grain")
+//         return element
+// });
+// console.log(grains)
+
+
+
+// console.log("Question 7 category Dairy: ------")
+// const dairy=food.filter((element, index, food)=>{
+//     if(element.category==="Dairy")
+//         return element
+// });
+// console.log(dairy)
+
+
+
+
+// console.log("Question 8 category calorie above 100: ------")
+// const calAbove100=food.filter((element, index,food)=>{
+//     if(element.calorie >100)
+//         return element
+// });
+// console.log(calAbove100)
+
+
+
+
+
+// console.log("Question 9 category calorie below 100: ------")
+// const calBelow100=food.filter((element, index,food)=>{
+//     if(element.calorie <100)
+//         return element
+// });
+// console.log(calBelow100)
+
+
+
+// console.log("Question 10 category protein below high to low: ------")
+// const highToLowProteinFood = food.slice().sort((a, b) => b.protiens - a.protiens);
+// console.log(highToLowProteinFood);
+
+
+
+
+
+
+// console.log("Question 11 category protein below high to low: ------")
+// const lowtohighCarbs = food.slice().sort((a, b) => a.cab - b.cab);
+// console.log(lowtohighCarbs);
